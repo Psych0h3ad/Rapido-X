@@ -1,0 +1,62 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _b8cf4d35-20260127 OPENFOAM=2412 patch=260127 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : <CFD_WORKSPACE>/tools/bin/thermalAudit -parallel -latestTime -solve
+Date   : Sep 20 2026
+Time   : 00:27:14
+Host   : REDACTED_HOST
+PID    : 14378
+I/O    : uncollated
+Case   : <CFD_WORKSPACE>/official_50Pa
+nProcs : 12
+Hosts  :
+(
+    (REDACTED_HOST 12)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 120
+
+DILUPBiCGStab:  Solving for theta, Initial residual = 0.018391029, Final residual = 1.0772109e-05, No Iterations 48
+Frozen-flow scalar iteration 0 residual 0.018391029
+DILUPBiCGStab:  Solving for theta, Initial residual = 0.00037339506, Final residual = 2.4166153e-07, No Iterations 62
+Frozen-flow scalar iteration 1 residual 0.00037339506
+DILUPBiCGStab:  Solving for theta, Initial residual = 2.1923552e-05, Final residual = 2.1508047e-08, No Iterations 74
+Frozen-flow scalar iteration 2 residual 2.1923552e-05
+DILUPBiCGStab:  Solving for theta, Initial residual = 3.0573085e-06, Final residual = 3.0087979e-09, No Iterations 141
+Frozen-flow scalar iteration 3 residual 3.0573085e-06
+DILUPBiCGStab:  Solving for theta, Initial residual = 6.6292429e-07, Final residual = 2.2211729e-10, No Iterations 157
+Frozen-flow scalar iteration 4 residual 6.6292429e-07
+DILUPBiCGStab:  Solving for theta, Initial residual = 2.0219886e-07, Final residual = 1.899251e-10, No Iterations 46
+Frozen-flow scalar iteration 5 residual 2.0219886e-07
+DILUPBiCGStab:  Solving for theta, Initial residual = 8.0397548e-08, Final residual = 9.883915e-11, No Iterations 50
+Frozen-flow scalar iteration 6 residual 8.0397548e-08
+DILUPBiCGStab:  Solving for theta, Initial residual = 3.9678826e-08, Final residual = 9.2985831e-11, No Iterations 48
+Frozen-flow scalar iteration 7 residual 3.9678826e-08
+DILUPBiCGStab:  Solving for theta, Initial residual = 2.1958859e-08, Final residual = 7.4793981e-11, No Iterations 34
+Frozen-flow scalar iteration 8 residual 2.1958859e-08
+DILUPBiCGStab:  Solving for theta, Initial residual = 1.3445968e-08, Final residual = 9.681096e-11, No Iterations 30
+Frozen-flow scalar iteration 9 residual 1.3445968e-08
+DILUPBiCGStab:  Solving for theta, Initial residual = 8.6275585e-09, Final residual = 9.3497897e-11, No Iterations 24
+Frozen-flow scalar iteration 10 residual 8.6275585e-09
+Thermal audit 120 advected out=0.46870954 diffusive in=0.46866268 residual=4.6859637e-05
+Finalising parallel run

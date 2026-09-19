@@ -4,7 +4,9 @@
 
 The P3D front and rear parts feature a structure designed to make cable routing easier and gentler on the cables than the version released by Phaetus.
 
-[See the illustrated P3D vs. Phaetus comparison](docs/P3D-vs-Phaetus.md), including a close-up of the front cable-routing cutout, the rear opening and the top-hole layout. Heatsink cooling performance has not yet been compared.
+[See the illustrated P3D vs. Phaetus comparison](docs/P3D-vs-Phaetus.md), including a close-up of the front cable-routing cutout, the rear opening and the top-hole layout. An [experimental heatsink-cooling CFD comparison](docs/cooling/README.md) is also available.
+
+**I am not a specialist in thermodynamics or fluid mechanics; please treat the simulation results as reference material only.** They use simplified assumptions and have not been validated by physical tests.
 
 - [SB Front Rapido X_P3D.STEP](SB%20Front%20Rapido%20X_P3D.STEP) — Front part
 - [SB Rear CW2 Rapido X_P3D.STEP](SB%20Rear%20CW2%20Rapido%20X_P3D.STEP) — Rear part for CW2
@@ -13,7 +15,9 @@ The P3D front and rear parts feature a structure designed to make cable routing 
 
 P3D版のフロント・リアパーツは、Phaetusが公開したバージョンと比べて、ケーブルを取り回しやすく、ケーブルに優しい構造になっています。
 
-[P3D版とPhaetus公式版の図解比較](docs/P3D-vs-Phaetus.md)では、フロントのケーブル用切り欠きの拡大図に加え、リア開口部・上面の穴配置の違いを確認できます。ヒートシンク冷却性能の比較は未実施です。
+[P3D版とPhaetus公式版の図解比較](docs/P3D-vs-Phaetus.md)では、フロントのケーブル用切り欠きの拡大図に加え、リア開口部・上面の穴配置の違いを確認できます。[ヒートシンク冷却の試験的なCFD比較](docs/cooling/README.md)も掲載しています。
+
+**私は熱力学・流体力学の専門家ではありませんので、解析結果は参考程度にご覧ください。** 簡略化した仮定に基づく結果であり、実機試験による検証は行っていません。
 
 - [SB Front Rapido X_P3D.STEP](SB%20Front%20Rapido%20X_P3D.STEP) — フロントパーツ
 - [SB Rear CW2 Rapido X_P3D.STEP](SB%20Rear%20CW2%20Rapido%20X_P3D.STEP) — CW2用リアパーツ

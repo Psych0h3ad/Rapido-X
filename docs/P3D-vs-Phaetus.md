@@ -38,11 +38,15 @@ Here, **Phaetus** means the VORON parts contained in this repository's [Rapido X
 
 **日本語：** 上面の穴配置と合わせ面側の溝形状にも違いがあります。公式版にはこの縁に3本の溝が見えますが、P3D版では中央の溝を残し、その周辺の穴配置が変更されています。フロントにはファン周辺や下側の輪郭にも差があります。P3D版は、強調したケーブルアクセス部分以外にも形状変更を含みます。個々の穴の用途は、外観だけから断定していません。
 
-## Heatsink cooling: not yet compared / ヒートシンク冷却：性能比較は未実施
+## Heatsink cooling: experimental CFD / ヒートシンク冷却：試験的なCFD比較
 
-**English:** Easier cable routing does not establish better cooling from the Stealthburner's 4010 heatsink fan. If an opening lets air bypass the heatsink fins, it can reduce useful cooling flow; if it relieves a restriction after the air passes through the fins, it can help. Which effect dominates depends on the assembled hotend, fan, duct and cable placement. Fan airflow also depends on the resistance of the complete flow path ([Noctua: fan operating points and airflow resistance](https://www.noctua.at/en/expertise/tech/nf-a12x25-performance-comparison-to-nf-f12-and-nf-s12a)). No cooling-performance advantage is claimed for either version here.
+An [exploratory CFD comparison](cooling/README.md) is now available, including flow sections, numerical results and the assumptions used. **I am not a specialist in thermodynamics or fluid mechanics; please treat it as reference only.** Physical cooling tests have not been performed, the specified flow residual target was not reached, and mesh independence remains unverified.
 
-**日本語：** ケーブルを取り回しやすいことと、Stealthburnerの4010ファンによるヒートシンク冷却が優れていることは別です。開口からフィンを通らずに風が逃げる場合は有効な冷却風量が減る可能性があり、フィン通過後の排気抵抗を減らす場合は有利に働く可能性があります。どちらが支配的かは、ホットエンド・ファン・ダクト・配線を組み付けた状態によります。また、ファンの風量は流路全体の抵抗によって変わります（[Noctuaによるファンの動作点と通風抵抗の解説](https://www.noctua.at/en/expertise/tech/nf-a12x25-performance-comparison-to-nf-f12-and-nf-s12a)）。本資料では、どちらの冷却性能が優れているかは主張していません。
+流れの断面図・計算結果・仮定条件をまとめた[試験的なCFD比較](cooling/README.md)を掲載しました。**私は熱力学・流体力学の専門家ではありませんので、参考程度にご覧ください。** 実機での冷却試験は未実施で、設定した流れの収束目標は未達、メッシュ独立性も未検証です。
+
+**English:** Easier cable routing does not establish better cooling from the Stealthburner's 4010 heatsink fan. If an opening lets air bypass the heatsink fins, it can reduce useful cooling flow; if it relieves a restriction after the air passes through the fins, it can help. Which effect dominates depends on the assembled hotend, fan, duct and cable placement. Fan airflow also depends on the resistance of the complete flow path ([Noctua: fan operating points and airflow resistance](https://www.noctua.at/en/expertise/tech/nf-a12x25-performance-comparison-to-nf-f12-and-nf-s12a)). The geometry comparison alone does not establish which version cools better; the separate CFD report gives conditional, exploratory results.
+
+**日本語：** ケーブルを取り回しやすいことと、Stealthburnerの4010ファンによるヒートシンク冷却が優れていることは別です。開口からフィンを通らずに風が逃げる場合は有効な冷却風量が減る可能性があり、フィン通過後の排気抵抗を減らす場合は有利に働く可能性があります。どちらが支配的かは、ホットエンド・ファン・ダクト・配線を組み付けた状態によります。また、ファンの風量は流路全体の抵抗によって変わります（[Noctuaによるファンの動作点と通風抵抗の解説](https://www.noctua.at/en/expertise/tech/nf-a12x25-performance-comparison-to-nf-f12-and-nf-s12a)）。形状比較だけでは、どちらの冷却性能が優れているかは判断できません。条件付きの試験的な計算結果は、別ページのCFD資料にまとめています。
 
 **Suggested A/B check / 比較方法：** Use the same fan, drive setting, hotend temperature, chamber temperature, cable placement and extrusion conditions. Measure the stabilized temperature at the same point on the heatsink near the heatbreak; nozzle temperature alone does not measure heatsink cooling. Repeat with the two versions. / 同一ファン・同一駆動条件・同一ホットエンド温度・同一チャンバー温度・同じ配線位置と押出条件で比較します。ヒートブレイクに近いヒートシンクの同じ位置で、温度が落ち着いてから測定し、両形状で繰り返します。ノズル温度だけではヒートシンクの冷却性能を判断できません。
 

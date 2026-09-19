@@ -1,0 +1,82 @@
+[
+  {
+    "file": "SB Front Rapido X_P3D.STEP",
+    "bytes": 5558064,
+    "sha256": "6ae02616bf0a34d17e00d1431c34676758712fb80c804129b0389b6ba69434c9"
+  },
+  {
+    "file": "SB Rear CW2 Rapido X_P3D.STEP",
+    "bytes": 1555687,
+    "sha256": "c8478d41f6da121936ade90204936ea8d920b8e00c30d0ac5065ce6d9b0591b2"
+  },
+  {
+    "file": "Rapido X.STEP",
+    "bytes": 14824187,
+    "sha256": "a6c1130cc38e0c8a96ece2019280a9306657c14cb39252e14094c00dc2b85c21"
+  },
+  {
+    "file": "Rapido X-voron.3mf",
+    "bytes": 6237307,
+    "sha256": "b87c4b9b5925cc10a394abd1a5d8e106dad85d78d9f8286885e82aa5ecf35cc1"
+  },
+  {
+    "file": "Stealthburner_CW2_Assembly.step",
+    "bytes": 26745618,
+    "sha256": "526fe18bd11c046deba0a2b193fa3874e8f6d6e5a282fbdc25f06fe5acb3021d"
+  },
+  {
+    "file": "Stealth_Rapido_UHF_Main_Body.stl",
+    "bytes": 2503284,
+    "sha256": "6fff4e41136684b6fba2c4bbdf52ad2291b6f5fc495ba9df98d749b54ef25dff"
+  },
+  {
+    "file": "uhf_body_aligned.stl",
+    "bytes": 2503284,
+    "sha256": "3a04b92e094a677b3e0068e3eb14507cbdafae9f6a7124d2335c4c9db2708c6e"
+  },
+  {
+    "file": "hotend_aligned.stl",
+    "bytes": 4084184,
+    "sha256": "7f971567a5db4fa91e2e8be30765dc9b537f725c78fe6f369222a2ee496de318"
+  },
+  {
+    "file": "official/constant/triSurface/body.stl",
+    "bytes": 2503284,
+    "sha256": "45ae2ee1f7ae0bf96614faeb5df7857c20af1deb76f1af8874d49e6a29a66ade"
+  },
+  {
+    "file": "official/constant/triSurface/front.stl",
+    "bytes": 21155484,
+    "sha256": "769af8464de57730b14e958766c96413205dc225353807b338ce6ff409598b60"
+  },
+  {
+    "file": "official/constant/triSurface/hotend.stl",
+    "bytes": 4020284,
+    "sha256": "25448fbd6fed9083138358492b9e27ee2c74ba6e0f8fe76c050d90b67be46e7f"
+  },
+  {
+    "file": "official/constant/triSurface/rear.stl",
+    "bytes": 813884,
+    "sha256": "640cc2a67f12955db799f945572336b78816612e7e56198df1a12c992c9d3ea9"
+  },
+  {
+    "file": "p3d/constant/triSurface/body.stl",
+    "bytes": 2503284,
+    "sha256": "45ae2ee1f7ae0bf96614faeb5df7857c20af1deb76f1af8874d49e6a29a66ade"
+  },
+  {
+    "file": "p3d/constant/triSurface/front.stl",
+    "bytes": 7289084,
+    "sha256": "75ac7b82c4499716cd7032e1bbef7d48763b51a6095089dc6ab885c533475d09"
+  },
+  {
+    "file": "p3d/constant/triSurface/hotend.stl",
+    "bytes": 4020284,
+    "sha256": "25448fbd6fed9083138358492b9e27ee2c74ba6e0f8fe76c050d90b67be46e7f"
+  },
+  {
+    "file": "p3d/constant/triSurface/rear.stl",
+    "bytes": 770084,
+    "sha256": "aa01b4540ccbca195c7aeea0b2fea76aac9a516af5ca7a9728d8a47ddace2a14"
+  }
+]

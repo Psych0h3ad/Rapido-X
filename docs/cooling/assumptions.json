@@ -1,0 +1,40 @@
+{
+  "fan": {
+    "manufacturer": "SIBOOR",
+    "model_user_reported": "4010-2401-8000-SS",
+    "voltage_V": 24,
+    "nameplate_current_A": 0.1,
+    "nominal_speed_rpm": 8000,
+    "speed_evidence": "User inference from model; SIBOOR BOM lists 24V 8000RPM 4010 fans, exact part P-Q curve not found.",
+    "boundary_model": "Pressure-driven annular inlet at the SB CAD fan outlet; not rotating blades.",
+    "pressure_sensitivity_Pa": [
+      10,
+      25,
+      50
+    ],
+    "pressure_note": "Assumed sensitivity conditions, not the measured SIBOOR fan curve."
+  },
+  "thermal_conditions": {
+    "heater_block_temperature_C": [
+      250,
+      300
+    ],
+    "ambient_C": 40,
+    "ambient_status": "assumed",
+    "ceramic_heater_rated_W": 120,
+    "rated_power_note": "Not assumed to be continuous heat input under temperature control.",
+    "heater_block_material": "Nickel-plated copper alloy, Phaetus product specification",
+    "heatbreak_material": "Stainless steel with EndCoat, Phaetus product specification",
+    "heatsink_material": "User-assumed aluminum; the isothermal-surface model does not solve its solid conductivity.",
+    "thermal_model_status": "Completed exploratory steady RANS airflow and isothermal-surface passive-scalar heat transfer at 10/25/50 Pa. 250/300 C block scenarios use a separate illustrative thermal network with unknown G; no conjugate solid/air heat transfer was solved."
+  },
+  "geometry": {
+    "sb_commit": "8bcb9c246fac19d8ac03931ef97fa07c5e5f0f2b",
+    "uhf_source": "VoronDesign/VoronUsers/printer_mods/bythorsthunder/Stealthburner_Rapido_Uhf",
+    "uhf_observed_head": "8e5067f4f6457da8a552983dd210ec48c40be2ca",
+    "hotend_source": "Rapido X.STEP, solid 1; groove mount solid 0 excluded for screw-mounted setup",
+    "hotend_transform_mm": "x'=x, y'=-y, z'=-z+12.6; top mounting plane z=54 and bolt axes x=+/-5,y=+/-4.25 match P3D CAD",
+    "wires": "Not modeled in initial comparison; photographs retained as assembly references, not published.",
+    "main_body": "Rapido UHF long cowling, same in both cases"
+  }
+}

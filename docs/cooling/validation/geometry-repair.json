@@ -1,0 +1,71 @@
+{
+  "p3d_front": {
+    "original_volume_mm3": 44073.844392252555,
+    "repaired_volume_mm3": 44078.51279754185,
+    "max_bounds_change_mm": 0.0,
+    "source_to_repaired": {
+      "sample_count": 98470,
+      "median_p95_p99_max_mm": [
+        0.0,
+        3.885780586188048e-16,
+        1.7763568394002505e-15,
+        2.4060989287386602e-06
+      ]
+    },
+    "repaired_to_source": {
+      "sample_count": 102856,
+      "median_p95_p99_max_mm": [
+        0.0,
+        1.7763568394002505e-15,
+        0.06101883060019846,
+        0.18829014835777444
+      ]
+    }
+  },
+  "official_front": {
+    "original_volume_mm3": 47870.620736664685,
+    "repaired_volume_mm3": 47877.49700261193,
+    "max_bounds_change_mm": 0.0,
+    "source_to_repaired": {
+      "sample_count": 241515,
+      "median_p95_p99_max_mm": [
+        0.0,
+        0.0,
+        8.881784197001252e-16,
+        7.944109290391274e-15
+      ]
+    },
+    "repaired_to_source": {
+      "sample_count": 241521,
+      "median_p95_p99_max_mm": [
+        0.0,
+        0.0,
+        8.881784197001252e-16,
+        0.26887575458175406
+      ]
+    }
+  },
+  "hotend": {
+    "original_volume_mm3": 14949.97521091259,
+    "repaired_volume_mm3": 14949.839136020513,
+    "max_bounds_change_mm": 0.0,
+    "source_to_repaired": {
+      "sample_count": 70810,
+      "median_p95_p99_max_mm": [
+        2.2637800712523824e-08,
+        4.6568798827452676e-07,
+        1.035015364081778e-06,
+        1.7980595879831947
+      ]
+    },
+    "repaired_to_source": {
+      "sample_count": 70166,
+      "median_p95_p99_max_mm": [
+        2.0816506032644784e-08,
+        4.622695945859157e-07,
+        6.739966194121216e-07,
+        1.8840491647800893e-06
+      ]
+    }
+  }
+}

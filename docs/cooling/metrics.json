@@ -1,0 +1,46 @@
+{
+  "official": {
+    "model": "official",
+    "pressure_Pa": 25,
+    "flow_L_min": 67.17608014380001,
+    "H_W_K": 0.366405509134,
+    "exposed_sink_area_m2": 0.00645940659354,
+    "mean_h_W_m2_K": 56.72432967765788,
+    "mass_imbalance_fraction": 6.551879803911138e-05,
+    "thermal_balance_fraction": 0.00010193005483202376,
+    "flow_iterations": 500,
+    "flow_final_initial_residuals": {
+      "Ux": 0.0044822383,
+      "Uy": 0.0022965386,
+      "Uz": 0.0037092489,
+      "p": 4.468745e-05,
+      "k": 0.0034173531,
+      "omega": 0.00010009038
+    },
+    "frozen_theta_final_initial_residual": 7.7493785e-09,
+    "inletFlow_last60_relative_range": 0.0004061305573437407,
+    "sinkGradient_last60_relative_range": 0.004969723602153884
+  },
+  "p3d": {
+    "model": "p3d",
+    "pressure_Pa": 25,
+    "flow_L_min": 65.3353888848,
+    "H_W_K": 0.466565811853,
+    "exposed_sink_area_m2": 0.00732671841479,
+    "mean_h_W_m2_K": 63.6800523016105,
+    "mass_imbalance_fraction": 3.1675458512984937e-06,
+    "thermal_balance_fraction": 1.2409115562908405e-05,
+    "flow_iterations": 500,
+    "flow_final_initial_residuals": {
+      "Ux": 0.0022707594,
+      "Uy": 0.00086290364,
+      "Uz": 0.0022468313,
+      "p": 1.4706765e-05,
+      "k": 0.0013175924,
+      "omega": 5.2389332e-05
+    },
+    "frozen_theta_final_initial_residual": 7.0743173e-09,
+    "inletFlow_last60_relative_range": 0.00020424063471444104,
+    "sinkGradient_last60_relative_range": 0.0008962355087664255
+  }
+}
